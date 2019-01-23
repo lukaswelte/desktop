@@ -9,8 +9,8 @@ addons:
     paths:
     - maputnik
 install:
-- nvm install 6
-- nvm use 6
+- nvm install 10
+- nvm use 10
 - go get -u golang.org/x/sys/...
 - go get github.com/fsnotify/fsnotify
 - go get github.com/gorilla/handlers
